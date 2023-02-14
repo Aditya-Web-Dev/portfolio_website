@@ -1,0 +1,19 @@
+.ExpertiseSection {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: auto;
+}
+
+.ExpertiseSection h1 {
+  text-align: center;
+}
+
+.cardGroup {
+  display: flex;
+}
+
+.cardGroup h1 {
+  text-align: left;
+}

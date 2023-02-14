@@ -1,0 +1,19 @@
+.TitleSideBars {
+  width: 2%;
+  height: 50vh;
+  position: absolute;
+}
+
+.leftSideBar {
+  top: 10%;
+  left: 0;
+
+  background-color: #01dbc4;
+}
+
+.rightSideBar {
+  bottom: 10%;
+  right: 0;
+
+  background-color: #bb85fe;
+}

@@ -1,0 +1,33 @@
+.TitleSection {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.TitleSection a {
+  color: #000;
+}
+
+.instagramSocial {
+  background-color: #01dbc4;
+  width: 100%;
+  text-align: center;
+
+  position: fixed;
+  left: 0;
+  z-index: 100;
+  top: 0;
+}
+
+.instagramSocial p {
+  padding: 10px 20px;
+
+  margin: 0;
+  line-height: 1;
+}

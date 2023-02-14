@@ -1,0 +1,44 @@
+.AboutSection {
+  padding: 5%;
+  display: flex;
+}
+
+.AboutLeft,
+.AboutRight {
+  width: 50%;
+}
+
+.AboutSection h1 {
+  text-transform: uppercase;
+}
+
+.AboutSection p {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.AboutRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AboutRight img {
+  width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .AboutSection {
+    flex-direction: column;
+  }
+
+  .AboutLeft,
+  .AboutRight {
+    width: 100%;
+  }
+
+  .AboutRight {
+    padding-top: 20px;
+  }
+}
